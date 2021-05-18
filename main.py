@@ -8,4 +8,6 @@ z = [75.2,79.21,80.02,81.2,81.62,84.79,87.38,87.9,88.54,88.56,88.34,89.66,90.11,
 fig = plt.figure()
 ax = fig.gca(projection='3d')
 ax.plot_trisurf(x, y, z, cmap=cm.jet, linewidth=0.2)
+
+
 plt.show()
